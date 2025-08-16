@@ -4,7 +4,7 @@ n = int(values[0])
 m = int(values[1])
 
    
-if ((N%2 != 0) and (M%2 != 0)):  
+if ((n%2 != 0) and (m%2 != 0)):
   
     #Beginning  part
     for i in range(1,n,2):       
@@ -17,3 +17,5 @@ if ((N%2 != 0) and (M%2 != 0)):
     for i in range(n-2, 0, -2):
         # print(i)
         print((".|." * i).center(m, "-"))
+else:
+    print('Even values not available')
