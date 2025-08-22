@@ -1,0 +1,11 @@
+# Python virtual environment
+.venv/
+
+# IDE files
+.idea/
+
+# macOS metadata
+.DS_Store
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
